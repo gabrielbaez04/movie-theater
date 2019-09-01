@@ -1,0 +1,22 @@
+.poster{
+    height: 300px;
+    max-height: 300px;
+    min-height: 300px;
+    max-width: 200px;
+    min-width: 200px;
+    margin: 5px;
+    transition: all .2s ease-in-out; 
+}
+.poster:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .poster {
+        height: 150px;
+        max-height: 150px;
+        min-height: 150px;
+        max-width: 100px;
+        min-width: 100px;
+    }
+}
