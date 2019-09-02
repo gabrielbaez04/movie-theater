@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/movie-theater/static/css/main.1ac9862c.chunk.css",
-    "main.js": "/movie-theater/static/js/main.07d16983.chunk.js",
-    "main.js.map": "/movie-theater/static/js/main.07d16983.chunk.js.map",
+    "main.css": "/movie-theater/static/css/main.7328bf8c.chunk.css",
+    "main.js": "/movie-theater/static/js/main.c2f9a046.chunk.js",
+    "main.js.map": "/movie-theater/static/js/main.c2f9a046.chunk.js.map",
     "runtime~main.js": "/movie-theater/static/js/runtime~main.d4492ca4.js",
     "runtime~main.js.map": "/movie-theater/static/js/runtime~main.d4492ca4.js.map",
     "static/js/2.45403cbd.chunk.js": "/movie-theater/static/js/2.45403cbd.chunk.js",
     "static/js/2.45403cbd.chunk.js.map": "/movie-theater/static/js/2.45403cbd.chunk.js.map",
     "index.html": "/movie-theater/index.html",
-    "precache-manifest.056f0fe55f4e4f1be9b9b72e55e62855.js": "/movie-theater/precache-manifest.056f0fe55f4e4f1be9b9b72e55e62855.js",
+    "precache-manifest.d4fae97841a25a2fe87193cca6af2e0a.js": "/movie-theater/precache-manifest.d4fae97841a25a2fe87193cca6af2e0a.js",
     "service-worker.js": "/movie-theater/service-worker.js",
-    "static/css/main.1ac9862c.chunk.css.map": "/movie-theater/static/css/main.1ac9862c.chunk.css.map"
+    "static/css/main.7328bf8c.chunk.css.map": "/movie-theater/static/css/main.7328bf8c.chunk.css.map"
   }
 }
