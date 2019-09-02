@@ -35,8 +35,7 @@ function MovieDetails({movieDetails, onBackClick, genres}) {
           <div><i className="fa fa-calendar" aria-hidden="true"/>{` Release Date: ${movieDetails.release_date}`}</div>
         </div>
       </div>
-      
-        <button className="detail-back-button" onClick={handleBackClick}>Back to list</button>
+      <button className="detail-back-button" onClick={handleBackClick}>Back to list</button>
     </div>
   );
 }
