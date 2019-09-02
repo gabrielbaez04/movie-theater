@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/movie-theater/static/css/main.7328bf8c.chunk.css",
+    "main.css": "/movie-theater/static/css/main.dc5c60d1.chunk.css",
     "main.js": "/movie-theater/static/js/main.c2f9a046.chunk.js",
     "main.js.map": "/movie-theater/static/js/main.c2f9a046.chunk.js.map",
     "runtime~main.js": "/movie-theater/static/js/runtime~main.d4492ca4.js",
@@ -8,8 +8,8 @@
     "static/js/2.45403cbd.chunk.js": "/movie-theater/static/js/2.45403cbd.chunk.js",
     "static/js/2.45403cbd.chunk.js.map": "/movie-theater/static/js/2.45403cbd.chunk.js.map",
     "index.html": "/movie-theater/index.html",
-    "precache-manifest.d4fae97841a25a2fe87193cca6af2e0a.js": "/movie-theater/precache-manifest.d4fae97841a25a2fe87193cca6af2e0a.js",
+    "precache-manifest.11cdd8cfa9c2ed123fe206bf2163624e.js": "/movie-theater/precache-manifest.11cdd8cfa9c2ed123fe206bf2163624e.js",
     "service-worker.js": "/movie-theater/service-worker.js",
-    "static/css/main.7328bf8c.chunk.css.map": "/movie-theater/static/css/main.7328bf8c.chunk.css.map"
+    "static/css/main.dc5c60d1.chunk.css.map": "/movie-theater/static/css/main.dc5c60d1.chunk.css.map"
   }
 }
