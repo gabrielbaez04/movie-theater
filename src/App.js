@@ -55,16 +55,26 @@ function App() {
   }
 
   const onStarClick = (stars) => {
-    if (!movies) return;
+    if (!stars) {
+      //handles when rating is reset
+      setStarRating(0);
+      return;
+    }
+    if (!movies) return; //return if no movies availables.
+    //when clicking on selected star, reset rating.
     if (stars === starRating) {
       setResetRating(true);
       setFilteredMovies('');
       return;
     }
     setResetRating(false);
-    const filteredArr = movies.filter(m => m.vote_average <= stars * 2);
-    setStarRating(stars);
+    // set start and end ranges for each selected star
+    const start = stars === 1 ? 0 : stars * 2 - 2;
+    const end =  stars * 2;
+    // filter movies on the selected range.
+    const filteredArr = movies.filter(m => m.vote_average >= start && m.vote_average <= end);
     setFilteredMovies(filteredArr);
+    setStarRating(stars);
   }
 
   useEffect(() => {

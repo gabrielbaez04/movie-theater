@@ -32,7 +32,7 @@ function Header({onTermChange, selectedMovie, onBackClick, onStarClick, starRati
             reset={reset}
           />
           :
-          <div className="rate"></div>
+          <></>
         }
       </div>
     </div>

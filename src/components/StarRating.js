@@ -7,11 +7,17 @@ function StarRating({onStarClick, starRating, reset}) {
     onStarClick(stars);
   }
   const restartStars = () => {
-    document.getElementById(`star${starRating}`).checked = false
+    document.getElementById(`star${starRating}`).checked = false;
+    onStarClick(0);
+  }
+  const setRating = () => {
+    document.getElementById(`star${starRating}`).checked = true;
+
   }
   useEffect(() => {
-    if (reset) restartStars();
-  },[reset]);
+    if (starRating && reset) restartStars();
+    if (starRating && !reset) setRating();
+  },[reset, starRating]);
   return (
     <div className="rate">
         <span className="rating-text">Rating Filter: </span>
